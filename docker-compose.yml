@@ -1,0 +1,10 @@
+services:
+  app-prod:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    mem_limit: 4g
+    mem_reservation: 2g
+    # other configurations
+
+
